@@ -1,0 +1,561 @@
+/* .Sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+    left: -280px;
+    top: 0;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.Sidebar.open {
+    left: 0;
+}
+
+.Sidebar.closed {
+    left: -280px;
+}
+
+.Content {
+    margin-left: 0;
+    width: 100%;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.Content.shift {
+    margin-left: 300px;
+    width: calc(100% - 280px);
+}
+
+.header {
+    width: 100%;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.header.shift {
+    margin-left: 280px;
+}
+
+.hamburger {
+    width: 30px;
+    cursor: pointer;
+
+}
+
+.Sidebar {
+    height: 100%;
+}
+
+.navBar {
+    width: 100%;
+    height: 70px;
+}
+
+.closebtn img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.closebtn {
+    display: none;
+}
+
+.header {
+    background-color: #dc3545;
+    padding: 10px;
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.form-control {
+    background-color: transparent;
+    color: white;
+}
+
+.btn-outline-light {
+    border-color: white;
+}
+
+
+@media (max-width: 400px) {
+    .Sidebar {
+        width: 320px;
+        overflow: hidden;
+
+    }
+
+    .closebtn {
+        display: block;
+    }
+} */
+
+/* 
+.Sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+    left: -280px;
+    top: 0;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.Sidebar.open {
+    left: 0;
+}
+
+.Sidebar.closed {
+    left: -280px;
+}
+
+.header {
+    width: 100%;
+    transition: margin-left 0.3s ease-in-out;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+
+.hamburger {
+    width: 30px;
+    cursor: pointer;
+}
+
+.closebtn img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.closebtn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Sidebar {
+        width: 100%;
+        max-width: 320px;
+        left: -100%;
+    }
+
+    .Sidebar.open {
+        left: 0;
+    }
+
+    .closebtn {
+        display: block;
+    }
+}
+
+.main-content {
+    transition: margin-left 0.3s ease-in-out;
+    min-height: 100vh;
+}
+
+.main-content.shifted {
+    margin-left: 280px;
+}
+
+@media (max-width: 768px) {
+    .Sidebar {
+        width: 280px;
+        z-index: 1000;
+    }
+
+    .Sidebar.open {
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .closebtn {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .closebtn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content.shifted {
+        margin-left: 0;
+    }
+} */
+
+/* 
+.Sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.Sidebar.open {
+    transform: translateX(0);
+}
+
+.Sidebar.closed {
+    transform: translateX(-100%);
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #495057;
+    border-radius: 5px;
+} */
+/* body {
+    overflow: hidden;
+} */
+
+/* .Sidebar {
+    width: 280px;
+    height: calc(100vh - 60px);
+    background-color: #000000;
+    position: fixed;
+    left: -280px;
+    top: 60px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    overflow-y: auto;
+} */
+
+/* body .Sidebar.open {
+    overflow: hidden;
+} */
+/* 
+.Sidebar.open {
+    left: 0;
+    top: 11.8%;
+}
+
+.Sidebar.closed {
+    left: -280px;
+    top: 11.8%;
+
+}
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    height: 60px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.hamburger {
+    width: 30px;
+    cursor: pointer;
+}
+
+.closebtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    z-index: 1001;
+}
+
+.main-container {
+    margin-top: 60px;
+    transition: margin-left 0.3s ease-in-out;
+    min-height: calc(100vh - 60px);
+}
+
+.main-container.shift {
+    margin-left: 280px;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; */
+/* height: 500px; */
+/* } */
+/* 
+@media (max-width: 768px) {
+    .Sidebar { */
+/* width: 80%; */
+/* max-width: 320px;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        display: none;
+        transition: left 0.3s ease-in-out; */
+/* max-width: none; */
+/* } */
+/* 
+    .sidebar-overlay {
+        background-color: #000000;
+    }
+
+    .Sidebar.open {
+        left: 0;
+        display: block;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    } */
+
+
+/* .Sidebar.closed {
+        left: -280px;
+        top: 18.8%;
+
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+    .main-container.shift {
+        margin-left: 0;
+    }
+
+    .movie-management {}
+}
+
+@media (min-width: 769px) {
+    .closebtn {
+        display: none !important;
+    }
+} */
+
+
+.Sidebar {
+    width: 270px;
+    /* height: calc(100vh - 60px); */
+    background-color: #343434;
+    position: fixed;
+    left: -280px;
+    top: 0px;
+    /* height: 100vh; */
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    overflow-y: auto;
+    /* border-radius: 8px; */
+    box-shadow: 0px 1px 5px rgb(138, 138, 138);
+}
+
+.Sidebar.open {
+    left: 0;
+    /* top: 13.2%; */
+}
+
+.Sidebar.closed {
+    left: -280px;
+    /* top: 13.2%; */
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 9999;
+    height: 60px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.hamburger {
+    width: 30px;
+    cursor: pointer;
+}
+
+.closebtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    z-index: 1001;
+}
+
+.main-container {
+    /* margin-top: 60px; */
+    transition: margin-left 0.3s ease-in-out;
+    /* min-height: calc(100vh - 60px); */
+}
+
+.main-container.shift {
+    margin-left: 270px;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.dashcards {
+    min-width: 150px;
+}
+
+@media (max-width: 768px) {
+    .Sidebar {
+        width: 100vw;
+        /* Sidebar occupies full viewport width */
+        height: 100vh;
+        /* Sidebar occupies full viewport height */
+        top: 0;
+        left: -100%;
+        position: fixed;
+        display: none;
+        transition: left 0.3s ease-in-out;
+        z-index: 1001;
+        /* Ensure it's above other elements */
+        overflow: hidden;
+        /* Prevent scrolling */
+    }
+
+    .main-container.shift {
+        margin-left: 0px;
+    }
+
+    .Sidebar.open {
+        left: 0;
+        top: 0;
+        display: block;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        display: none;
+        /* Initially hidden */
+    }
+
+    .Sidebar.open+.sidebar-overlay {
+        display: block;
+        /* Show overlay when sidebar is open */
+    }
+
+    /* Hide scrolling when sidebar is open */
+    body.sidebar-open {
+        overflow: hidden;
+    }
+
+    .closebtn {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1002;
+    }
+
+    @media (max-width: 768px) {
+        .Sidebar {
+            width: 100vw;
+            /* Sidebar occupies full viewport width */
+            height: 100vh;
+            /* Sidebar occupies full viewport height */
+            top: 0;
+            left: -100%;
+            position: fixed;
+            display: none;
+            transition: left 0.3s ease-in-out;
+            z-index: 1001;
+            /* Ensure it's above other elements */
+            overflow: hidden;
+            /* Prevent scrolling */
+        }
+
+        .Sidebar.open {
+            left: 0;
+            display: block;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            display: none;
+            /* Initially hidden */
+        }
+
+        .Sidebar.open+.sidebar-overlay {
+            display: block;
+            /* Show overlay when sidebar is open */
+        }
+
+        /* Hide scrolling when sidebar is open */
+        body.sidebar-open {
+            overflow: hidden;
+        }
+
+        .closebtn {
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1002;
+        }
+
+        .main-container {
+            overflow: hidden;
+        }
+    }
+
+}
+
+@media (min-width: 769px) {
+    .closebtn {
+        display: none !important;
+    }
+}
